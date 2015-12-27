@@ -1,0 +1,146 @@
+html,body,div,h1,h2,h3,ul,ol,li,p{
+  margin: 0;
+  padding: 0;
+  font: 14px;
+  color: #555;
+}
+a{
+  text-decoration: none;
+  color: #555;
+}
+ul{
+  list-style: none;
+}
+.clean{
+  clear: both;
+}
+/*-------------------header----------------------*/
+
+#main-header h1{
+  background: url("../img/logo.png") left center no-repeat;
+  text-indent: -9999px;
+  margin: 25px 0 25px 135px;
+}
+#nav{
+background: #555;
+}
+#nav ul{
+  overflow: hidden;
+  text-align: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+#nav ul .index{
+  margin-right: 10px;
+  background: #0085da;
+}
+#nav ul li{
+  float: left;
+}
+#nav ul li a{
+  display: block;
+  padding: 12px;
+  color: #fff;
+  font-size: 15px;
+}
+#nav ul li a:hover{
+  background: #0085da;
+}
+
+/*--------------------content---------------------*/
+#warp{
+  max-width: 1000px;
+  margin: 40px auto 0 auto;
+  padding-bottom: 20px;
+  overflow: hidden;
+}
+#content{
+  width: 700px;
+  float: left;
+  overflow: hidden;
+}
+.post{
+  overflow: hidden;
+  margin-bottom: 20px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #ccc;
+  width: 95%;
+  position: relative;
+}
+.post h3{
+  margin-bottom: 20px;
+}
+.post h3 a{
+  text-shadow: 2px 2px 2px #eee
+}
+.post h3 a:hover{
+transition:color 1s;
+-webkit-transition:color 1s; /* Safari */
+color: #0085da;
+}
+.post .ex{
+  line-height: 2em;
+}
+/*-----------------sidebar-----------------*/
+
+#sidebar{
+  width: 300px;
+  float: left;
+  overflow: hidden;
+}
+.wedit{
+  margin-bottom: 30px;
+}
+.wedit h2{
+  border-left: 4px solid #0085da;
+  border-bottom: 1px solid #ddd;
+  font-size: 18px;
+  padding-bottom: 3px;
+  margin-bottom: 20px;
+}
+.wedit .seach-form{
+  padding-top: 15px;
+  overflow: hidden;
+}
+.wedit .submit{
+  height: 36px;
+  width: 60px;
+  border-width: 0;
+  cursor: pointer;
+  float: left;
+  background: #0085da
+}
+.wedit .text{
+  height: 26px;
+  line-height: 26px;
+  padding: 4px 0 4px 10px;
+  outline: none;
+  border: 1px solid #dadada;
+  float: left;
+}
+.wedit ul li{
+  padding: 10px 0;
+}
+.wedit .a{
+
+}
+.wedit .a a{
+  float: left;
+  height: 40px;
+  line-height: 40px;
+  color: #fff;
+  font-size: 18px;
+  padding: 0 20px;
+  margin: 0 10px 10px 0;
+  border-radius: 3px;
+  background-color: #83c2eb;
+  white-space: nowrap;
+}
+/*------------------footer---------------*/
+footer{
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  border-top: 1px solid #ddd;
+  padding:20px;
+}

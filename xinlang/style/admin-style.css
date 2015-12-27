@@ -1,0 +1,78 @@
+html,body,div,h1,h2,h3,ul,ol,li,p{
+  margin: 0;
+  padding: 0;
+  font: 14px;
+  color: #555;
+}
+a{
+  text-decoration: none;
+  color: #555;
+}
+ul{
+  list-style: none;
+}
+.clean{
+  clear: both;
+}
+/*-------------------header----------------------*/
+
+#main-header h1{
+  background: url("../img/logo.png") left center no-repeat;
+  text-indent: -9999px;
+  margin: 25px 0 25px 135px;
+}
+#nav{
+background: #555;
+}
+#nav ul{
+  overflow: hidden;
+  text-align: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+#nav ul .index{
+  margin-right: 10px;
+  background: #0085da;
+}
+#nav ul li{
+  float: left;
+}
+#nav ul li a{
+  display: block;
+  padding: 12px;
+  color: #fff;
+  font-size: 15px;
+}
+#nav ul li a:hover{
+  background: #0085da;
+}
+
+/*---------------admin-main------------*/
+#main{
+  background: #eee;
+  height: 800px;
+}
+#menu{
+  background: #fff;
+  max-width: 1000px;
+  margin:0 auto;
+  border-radius: 0 0px 18px 18px;
+  padding: 10px 0 10px 0;
+  overflow: hidden;
+}
+.admin-nav{
+  margin-left: 10px;
+  float: left;
+  overflow: hidden;
+  width: 100px;
+}
+.admin-nav li{
+  padding: 10px 0;
+}
+
+/*-------------------content-------------------------*/
+#content{
+  float: left;
+  height:300px;
+  width: 800px;
+}
